@@ -6,7 +6,7 @@ import sqlite3
 # from dotenv import load_dotenv
 # load_dotenv()
 
-api_key = "AIzaSyAKEaaM7fWIErN3VbikjP_T5m0UfhBy5iE"
+api_key = st.secrets.key
 llm = GooglePalm(google_api_key=api_key,temperature=0.2)
 # print(llm("what is the definition of emission intensity in Fuel EU regulation"))
 
